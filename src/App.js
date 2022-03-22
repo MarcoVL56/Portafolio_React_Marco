@@ -27,7 +27,7 @@ function App() {
       <section id='seccion_presentacion' className='fondo-presentacion'>
         <div className='container'>
           <Presentacion 
-            titulo="Marco Vargas Lanzas" 
+            titulo="Jose Vargas Lanzas" 
             slogan="Ingeniero en Sistemas y estudiante de 
             Front-End Web Developmet de la Universidad Cenfotec"
             imagen="/img/imagen-principal.png"
