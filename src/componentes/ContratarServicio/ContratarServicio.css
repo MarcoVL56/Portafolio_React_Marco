@@ -1,0 +1,65 @@
+.fondo-contratar{
+    background-color: rgb(229, 229, 229);
+    padding: 5%;
+}
+
+.contenido-contratar{
+    align-items: center;
+}
+
+.contenido-contratar h2{
+    margin-bottom: 5%;
+    font-size: 40px;
+    color: rgb(3, 83, 151);
+
+}
+
+.contenido-contratar h3{
+    margin: 25px 0;
+    font-size: 30px;
+    color: rgb(3, 83, 151);
+}
+
+.contenido-contratar p{
+    font-size: 18px;
+    color: rgb(3, 83, 151);
+    font-weight: 500;
+}
+
+.fondo-formulario{
+    padding: 6% 5%;
+    margin: 20px 0;
+    border-radius: 2%;
+    background-color: rgb(3, 83, 151);
+}
+
+.contenedor-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media (max-width: 1200px){
+    .contenido-contratar h2{
+        font-size: 25px;
+    }
+    .contenido-contratar h3{
+        font-size: 20px;
+    }
+    .contenido-contratar p{
+        font-size: 13px;
+    }
+  }
+
+  @media (max-width: 820px){
+    .contenido-contratar h2{
+        font-size: 20px;
+    }
+    .contenido-contratar h3{
+        font-size: 15px;
+    }
+    .contenido-contratar p{
+        font-size: 12px;
+    }
+  }

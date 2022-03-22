@@ -1,0 +1,67 @@
+.fondo-experiencia{
+    background-color: rgb(229, 229, 229);
+    padding: 12% 0 12% 0;
+    min-height: 900px;
+}
+
+.contenido-inicial h2{
+    font-size: 40px;
+    color:rgb(3, 83, 151);
+    font-weight: bold;
+}
+
+.contenido-inicial p{
+    padding: 20px 0;
+    font-size: 20px;
+    color: #000;
+}
+
+.contenido-inicial button{
+    font-size: 18px;
+    background-color: rgb(236, 37, 90);
+    color: #fff;
+    border: 1px solid rgb(236, 37, 90);
+    border-radius: 4px;
+    line-height: 30px;
+    padding: 5px 15px;
+    margin: 5px;;
+}
+
+.contenido-inicial button:hover{
+    background-color: rgb(249, 72, 146);
+} 
+
+.fondo-opciones{
+    background-color:rgb(3, 83, 151);
+    padding: 1% 5%;
+    margin:  3% 5%;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 1200px){
+    .contenido-inicial h2{
+        font-size: 20px;
+    }
+    .contenido-inicial p{
+        font-size: 15px;
+    }
+    .fondo-experiencia{
+        background-color: rgb(229, 229, 229);
+        padding: 10% 0;
+        min-height: 60vh;
+    }
+
+    .contenido-inicial button{
+        font-size: 15px;
+        padding: 2px 10px;
+        margin: 2px;;
+    }
+  }
+  
+
+  @media (max-width: 800px){
+    .fondo-experiencia{
+        padding: 5% 0
+    }
+  }

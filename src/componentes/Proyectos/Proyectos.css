@@ -1,0 +1,97 @@
+.fondo-proyectos{
+    background-color: rgb(3, 83, 151);
+    padding: 3% 0 3%;
+    min-height: 900px;
+}
+
+.fondo-proyecto-nav{
+    background-color: rgb(229, 229, 229);
+    border-radius: 20px;
+    padding: 1%;
+}
+
+.lista-proyecto{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+}
+
+.lista-proyecto-contenida{
+    list-style: none;
+    padding: 0 10px;
+}
+
+.link-proyecto{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.contenido-proyecto h2{
+    font-size: 40px;
+    padding: 5% 0 2% 0;
+    color: #fff;
+}
+
+.contenido-proyecto h3{
+    font-size: 30px;
+    padding: 3% 0;
+    color: #fff;
+}
+
+.contenido-proyecto p{
+    font-size: 20px;
+    padding: 3% 0;
+    color: #fff;
+}
+
+.fondo-opcion{
+    padding: 2% 0;
+    margin: 0;
+}
+
+@media (max-width: 1200px){
+    .fondo-proyectos{
+        min-height: 600px;
+    }
+
+    .contenido-proyecto h2{
+        font-size: 30px;
+        padding: 5% 0 3% 0;
+    }
+    .contenido-proyecto h3{
+        font-size: 25px;
+        padding: 1% 0;
+    }
+    .contenido-proyecto p{
+        font-size: 15px;
+        padding: 1% 0;
+    }
+    .link-proyecto{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 820px){
+    .contenido-proyecto h2{
+        font-size: 25px;
+    }
+    .contenido-proyecto h3{
+        font-size: 20px;
+    }
+    .contenido-proyecto p{
+        font-size: 13px;
+    }
+    .link-proyecto{
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 358px){
+    .lista-proyecto{
+        justify-content: baseline;
+    }
+}

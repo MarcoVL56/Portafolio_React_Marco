@@ -1,0 +1,42 @@
+.fondo-presentacion{
+    padding: 10% 0;
+    background-color: rgb(3, 83, 151);
+}
+
+.contenido-presentacion h1{
+    font-size: 75px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.contenido-presentacion h2{
+    font-size: 20px;
+    color: #fff;
+}
+
+@media (max-width: 1200px){
+    .contenido-presentacion h1{
+        font-size: 50px;
+    }
+    .contenido-presentacion h2{
+        font-size: 20px;
+    }
+}
+
+  @media (max-width: 820px){
+    .fondo-presentacion{
+        padding: 20% 0;
+    }
+    .contenido-presentacion h1{
+        font-size: 30px;
+    }
+    .contenido-presentacion h2{
+        font-size: 15px;
+    }
+}
+  
+@media (max-width: 420px){
+    .fondo-presentacion{
+        padding: 25% 0;
+    }
+}

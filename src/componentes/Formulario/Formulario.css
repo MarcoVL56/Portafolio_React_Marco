@@ -1,0 +1,125 @@
+.contenido-formulario h3{
+    font-size: 28px;
+    color: #000;
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+}
+
+
+.formulario label{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.formulario p{
+    text-align: end;
+    font-size: 15px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.formulario input{
+    width: 100%;
+    border: 2px;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.formulario textarea{
+    width: 100%;
+    border: 5px;
+    font-size: 20px;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+.formulario select{
+    padding: 5px;
+    margin: 15px;
+}
+
+.formulario button{
+    background-color: rgb(57, 110, 176);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.formulario button:hover{
+    background-color: rgb(17, 70, 143);
+}
+
+
+.formulario .parrafo-proceso{
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    color:rgb(78, 159, 61)
+}
+
+
+@media (max-width: 1200px){
+    .contenido-formulario h3{
+        font-size: 25px;
+    }
+
+    .formulario p{
+        font-size: 13px;
+    }
+    .formulario .parrafo-proceso{
+        font-size: 13px;
+    }
+    .formulario label{
+        font-size: 13px;
+    }
+    .formulario input{
+        font-size: 18px;
+        padding: 4px;
+        margin-bottom: 5px;
+    }
+    .formulario textarea{
+        font-size: 18px;
+        padding: 5px;
+        margin-bottom: 5px;
+    }
+
+    .formulario select{
+        font-size: 12px;
+        padding: 4px;
+        margin-bottom: 10px;
+    }
+    .formulario button{
+        font-size: 15px;
+    }
+}
+
+  @media (max-width: 820px){
+    .contenido-formulario h3{
+        font-size: 20px;
+    }
+    .formulario input{
+        font-size: 15px;
+        padding: 1px;
+        margin-bottom: 3px;
+    }
+    .formulario textarea{
+        font-size: 15px;
+        padding: 1px;
+        margin-bottom: 3px;
+    }
+
+    .formulario select{
+
+        padding: 2px;
+        margin-bottom: 5px;
+    }
+    .formulario button{
+        font-size: 15px;
+    }
+}
