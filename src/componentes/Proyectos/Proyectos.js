@@ -25,7 +25,7 @@ function Proyectos(props) {
                             <Link className="link-proyecto" to="/proyectojuego">Juego del Ahorcado</Link>
                         </li>
                         <li className="lista-proyecto-contenida">
-                            <Link className="link-proyecto" to="/opiniones">Opiniones sobre mi</Link>
+                            <Link className="link-proyecto" to="/opiniones">Opiniones sobre mí</Link>
                         </li>
                     </ul>
                 </nav>
