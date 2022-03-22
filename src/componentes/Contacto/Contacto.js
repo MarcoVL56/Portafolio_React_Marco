@@ -1,5 +1,4 @@
 import React from "react";
-import { OpinionesComponenteHOC } from "../HOC/HOC";
 import './Contacto.css';
 
 function Contacto(props) {
@@ -21,12 +20,12 @@ function Contacto(props) {
                   <ul className="lista-contacto">
                       <li className="lista-contenida-contacto">
                           <a className="link" href="https://www.facebook.com/marco.vargaslanzas">
-                              <img src={props.iconos.facebook}></img>
+                              <img src={props.iconos.facebook} alt="icono-facebook"></img>
                           </a>
                       </li>
                       <li className="lista-contenida-contacto">
                           <a className="link" href="https://www.linkedin.com/in/marco-vargas-lanzas-aa7171228/">
-                              <img src={props.iconos.linkedin}></img>
+                              <img src={props.iconos.linkedin} alt="icono-linkedin"></img>
                           </a>
                       </li>
                   </ul>

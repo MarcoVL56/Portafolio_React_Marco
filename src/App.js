@@ -6,7 +6,7 @@ import Contacto from './componentes/Contacto/Contacto';
 import Navegacion from './componentes/Navegacion/Navegacion';
 import {Experiencia} from './componentes/Experiencia/Experiencia';
 import ContratarServicio from './componentes/ContratarServicio/ContratarServicio';
-import { OpinionesComponenteHOC } from './componentes/HOC/HOC';
+
 
 function App() {
   let secciones = {primera_seccion: "Presentación", segunda_seccion: "Experiencia", 

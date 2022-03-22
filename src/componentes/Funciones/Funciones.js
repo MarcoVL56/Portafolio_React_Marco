@@ -3,11 +3,6 @@ import React from "react"
 export function ejecutarPeticion (propiedades, manejadorEventos){
     manejadorEventos(true, null)
     let url = propiedades.url
-    let identificadorListado = propiedades.id
-
-    if(identificadorListado){
-        url = url + "/" + identificadorListado
-    }
     fetch(url)
         .then(respuesta => respuesta.json())
         .then(resultado => {
